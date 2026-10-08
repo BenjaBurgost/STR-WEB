@@ -1,0 +1,40 @@
+.header {
+    background: var(--azul);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header-marca {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 720px) {
+    .header-nav {
+        display: none;
+    }
+}
